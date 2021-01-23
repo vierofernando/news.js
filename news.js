@@ -41,7 +41,7 @@ module.exports = async function (options) {
     return new Promise((resolve) => {
         fetch(`https://assets.msn.com/service/msn/livetile/singletile${parameters}`, res => {
             let string = "";
-            res.on("error", err => { reject(err); });
+            res.on("error", err => { throw new Error(err); });
             res.on("data", chunk => string += chunk);
             res.on("end", () => {
                 if (res.statusCode != 200) throw new Error(JSON.parse(string).value[0].errorMessage);
