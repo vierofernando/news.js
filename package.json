@@ -1,6 +1,6 @@
 {
   "name": "news.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A npm package that fetches latest news from msn.",
   "main": "news.js",
   "scripts": {
@@ -12,12 +12,12 @@
   },
   "keywords": [
     "news",
-	"msn",
-	"api",
-	"api-wrapper"
+    "msn",
+    "api",
+    "api-wrapper"
   ],
   "dependencies": {
-	"xml2js": "0.4.x"
+    "xml2js": "0.4.x"
   },
   "author": "vierofernando",
   "license": "ISC",
