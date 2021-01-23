@@ -1,6 +1,6 @@
 {
   "name": "news.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A npm package that fetches latest news from msn.",
   "main": "news.js",
   "scripts": {
