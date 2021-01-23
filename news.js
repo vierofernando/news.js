@@ -32,7 +32,7 @@ class News {
     }
 }
 
-module.exports = async function (options) {
+module.exports = function (options) {
     if (!options || !(options instanceof Object)) options = { market: "en-US", vertical: "news" };
     else if (!options.vertical) options.vertical = "news";
     else if (!options.market) options.market = "en-US";
