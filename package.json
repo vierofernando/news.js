@@ -1,0 +1,28 @@
+{
+  "name": "news.js",
+  "version": "1.0.0",
+  "description": "API wrapper for Useless API",
+  "main": "news.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vierofernando/news.js.git"
+  },
+  "keywords": [
+    "news",
+	"msn"
+	"api",
+	"api-wrapper"
+  ],
+  "dependencies": {
+	"xml2js": "0.4.x"
+  },
+  "author": "vierofernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vierofernando/news.js/issues"
+  },
+  "homepage": "https://github.com/vierofernando/news.js#readme"
+}

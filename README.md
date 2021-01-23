@@ -1,7 +1,7 @@
 # news.js
 A npm package that fetches latest news from msn.
 
-## Install
+## Installation
 ```bash
 $ npm i news.js
 ```
