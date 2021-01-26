@@ -13,7 +13,7 @@ class News {
         this.text = raw.binding[0].text[0]._;
         this.image = raw.binding[0].image ? (raw.$.baseUri + raw.binding[0].image[0].$.src.split(`?`)[0]) : null;
         raw.binding.forEach(binding => {
-			const imageObject = this.image ? {
+            const imageObject = this.image ? {
                 url: raw.$.baseUri + binding.image[0].$.src,
                 width: parseInt(binding.image[0].$.src.split(/\w\=(.*?)\&/)[1]),
                 height: parseInt(binding.image[0].$.src.split(/\h\=(.*?)\&/)[1]),
